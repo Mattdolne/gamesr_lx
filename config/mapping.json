@@ -1,0 +1,11 @@
+{
+  "vendor": 13623,
+  "product": 4112,
+  "output_mode": "tap",
+  "mapping": {
+    "Share": "KEY_F11"
+  },
+  "verified_sources": {
+    "Share": "KEY_RECORD"
+  }
+}

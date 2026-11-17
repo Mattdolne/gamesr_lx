@@ -1,0 +1,29 @@
+# Configurações locais e credenciais: não versionar.
+.agents/
+.aws/
+.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Ambientes e arquivos gerados.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+core
+core.*
+
+# Evidência bruta permanece local. Publicar somente relatórios revisados e
+# o fixture evtest necessário ao teste de regressão.
+evidence/**
+!evidence/001/
+!evidence/001/README.md
+!evidence/001/usb-investigation.md
+!evidence/001/steam-validation.md
+!evidence/001/evtest-post-restart.txt
+!evidence/001/review/
+!evidence/001/review/README.md
