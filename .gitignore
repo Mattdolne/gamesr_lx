@@ -1,7 +1,10 @@
 # Configurações locais e credenciais: não versionar.
 .agents/
 .aws/
-.codex/
+.codex/*
+!.codex/agents/
+.codex/agents/*
+!.codex/agents/spec-editor.toml
 .env
 .env.*
 !.env.example

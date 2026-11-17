@@ -60,3 +60,12 @@ instalado no sistema. Não capturar teclados pessoais para observar o uinput.
 - Relatórios publicados referenciam arquivos brutos mantidos somente localmente;
   não apresentar esses links como downloads disponíveis no repositório.
 - Preservar histórico remoto. Não fazer force-push.
+
+## Revisão de specs
+
+Após cada entrega validável ou bloqueio confirmado, delegue a revisão
+ao `spec_editor`. Passe o caminho da spec, o diff e as evidências.
+Aguarde o parecer antes de considerar a entrega concluída. Retome a
+implementação dos itens em aberto quando houver um próximo passo
+executável. Enquanto o revisor estiver ativo, deixe a edição da spec
+com ele.
